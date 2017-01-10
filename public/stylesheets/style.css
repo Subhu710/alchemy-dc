@@ -1,0 +1,123 @@
+/* style.css
+ * This file provides css styles.
+ */
+
+h1 {
+	text-align: center;
+	color: green;
+
+}
+
+span {
+	font-size: 25px;
+}
+
+.fm {
+	background-color: rgba(0,0,0,.4);
+	width: 500px;
+	height: 300px;
+	position: absolute;
+	left: 550px;
+	top: 150px;
+	border: 2px solid black;
+	box-shadow: 7px 7px 7px #010B17;
+}
+
+.logo {
+	z-index: 9999;
+	position: absolute;
+	top: 10px;
+	left: 30px;
+
+}
+
+.mainy {
+	background: black;
+	height: 100px;
+	width: 100%;
+	position: fixed;
+	left: 0px;
+	top: 0px;
+    background-color: rgba(128,128,128,.5);
+    border-bottom: 3px solid black;
+    border-top: 3px solid black;
+}
+
+.fcontent {
+	
+	width: 80%;
+	position: relative;
+	left: 50px;
+	top: 50px;
+}
+
+a {
+	text-decoration: none;
+	color: #00aed1;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.newappIcon {
+	padding-top: 10%;
+	display: block;
+	margin: 0 auto;
+	padding-bottom: 2em;
+	max-width:200px;
+}
+
+h1 {
+	font-weight: bold;
+	font-size: 2em;
+}
+
+.leftHalf {
+	float: left;
+	background-color: #26343f;
+	width: 45%;
+	height: 100%;
+}
+
+.rightHalf {
+	float: right;
+	width: 55%;
+	background-color: #313f4a;
+	height: 100%;
+	overflow:auto;
+}
+
+.blue {
+	color: #00aed1;
+}
+
+
+table {
+	table-layout: fixed;
+	width: 800px;
+	margin: 0 auto;
+	word-wrap: break-word;
+	padding-top:10%;
+}
+
+th {
+	border-bottom: 1px solid #000;
+}
+
+th, td {
+	text-align: left;
+	padding: 2px 20px;
+}
+
+.env-var {
+	text-align: right;
+	border-right: 1px solid #000;
+	width: 30%;
+}
+
+pre {
+	padding: 0;
+	margin: 0;
+}
+

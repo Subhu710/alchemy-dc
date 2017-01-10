@@ -1,0 +1,16 @@
+declared-services:
+  alchemy-service:
+    label: alchemy_api
+    plan: free
+  document-conversion-service:
+    label: document-conversion-service
+    plan: free
+applications:
+- name: alchemy7100
+  command: npm start
+  memory: 512MB
+  services:
+  - alchemy-service
+  - Document Conversion-9i
+  env:
+    NPM_CONFIG_PRODUCTION: false
